@@ -1,17 +1,22 @@
-from bs4 import BeautifulSoup
+from selenium import webdriver
 
-import requests
+def get_upcoming_events(url):
+    print("line 4")
+    driver = webdriver.Firefox()
+    #driver = webdriver.Chrome()
+    print("line 6")
+    driver.get(url)
 
-#url = "www.pythonforbeginners.com"
-url = "www.moneycontrol.com"
+    events = driver.find_elements_by_xpath('//ul[contains(@class, "list-recent-events")]/li')
+    print("line number 9")
+    for event in events:
+        event_details = dict()
+        event_details['name'] = event.find_element_by_xpath('h3[@class="event-title"]/a').text
+        event_details['location'] = event.find_element_by_xpath('p/span[@class="event-location"]').text
+        event_details['time'] = event.find_element_by_xpath('p/time').text
+        print(event_details)
 
-# r  = requests.get("http://" +url)
-r = requests.get("http://mmb.moneycontrol.com/forum-topics/latest-threads.html")
-data = r.text
-
-soup = BeautifulSoup(data)
-p = soup.prettify(formatter=None).encode('utf-8')
-print(p)
-# for link in soup.find_all('a'):
-#     print(link.get('href'))
-#     
+    driver.close()
+print("Hello Shaurya")
+get_upcoming_events('https://www.python.org/events/python-events/')
+print("Hello Aishwarya")
