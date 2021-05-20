@@ -1,0 +1,7 @@
+source,C:\Users\aishw\Desktop,False,Move
+txt,C:\Users\aishw\Desktop\Desktop\txt
+csv,C:\Users\aishw\Desktop\Desktop\csv
+abc,C:\Users\aishw\Desktop\Desktop\abc
+pdf,C:\Users\aishw\Desktop\Desktop\pdf
+lnk,C:\Users\aishw\Desktop\Desktop\Shortcut
+html,C:\Users\aishw\Desktop\Desktop\HTML
