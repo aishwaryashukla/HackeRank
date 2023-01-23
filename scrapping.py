@@ -5,7 +5,7 @@ import re
 
 url = "https://github.com/search?q=sumit&type=Users"
 
-content = urllib.u
+content = urllib.request.urlopen(url)
 
 soup = BeautifulSoup(content, "lxml")
 for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
