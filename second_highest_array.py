@@ -10,7 +10,7 @@ all_stud = list()
 all_stud.append(['x',20])
 all_stud.append(['y',40])
 all_stud.append(['a',20])
-all_stud.append(['y',2])
+all_stud.append(['y',27])
 
 print(sorted(all_stud, key= lambda x : x[1]))
 l = 0
