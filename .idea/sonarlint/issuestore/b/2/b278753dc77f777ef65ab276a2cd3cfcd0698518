@@ -1,0 +1,24 @@
+
+ipython:S1192Ì"PDefine a constant instead of duplicating this literal "Stochastic_%D_5" 3 times.(Ç˜êý
+epython:S1192ž"GDefine a constant instead of duplicating this literal "+DI_15" 4 times.(òØäƒüÿÿÿÿ
+dpython:S1192œ"FDefine a constant instead of duplicating this literal "+DI_5" 4 times.(íÒë´ÿÿÿÿÿ
+apython:S1192v"IDefine a constant instead of duplicating this literal "%Y-%m-%d" 5 times.(Ù§íë
+dpython:S1192—"FDefine a constant instead of duplicating this literal "+DM_5" 3 times.(‚Ð–žùÿÿÿÿ
+cpython:S1192›"KDefine a constant instead of duplicating this literal "upper left" 6 times.(Ø‘ÎU
+jpython:S1192Í"QDefine a constant instead of duplicating this literal "Stochastic_%D_15" 3 times.(„þç¯
+ƒpython:S1192œ"kDefine a constant instead of duplicating this literal " Stock Price, Slow and Fast Moving Average" 4 times.(¢µ„
+`python:S1192™"GDefine a constant instead of duplicating this literal "+DM_15" 3 times.(á®‡ù
+dpython:S2208"GImport only needed names or import the module and then use its members.(Ò„‘Ïþÿÿÿÿ
+Tpython:S5754I"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Vpython:S905l":Remove or refactor this statement; it has no side effects.(þØ—úÿÿÿÿ
+6python:S125w"Remove this commented out code.(•à¨ž
+Wpython:S905Ð":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+opython:S117Ø"WRename this local variable "Wilder" to match the regular expression ^[_a-z][a-z0-9_]*$.(³õ‰š
+epython:S1542Ö"LRename function "Wilder" to match the regular expression ^[a-z_][a-z0-9_]*$.(³°Î†
+:python:S1110ù"!Remove those useless parentheses.(­ïä
+:python:S1110‰"!Remove those useless parentheses.(­ïä
+Wpython:S905±":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Wpython:S905Ò":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Wpython:S905ô":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+7python:S125Ë"Remove this commented out code.(Ÿœí™
+Wpython:S905´":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ

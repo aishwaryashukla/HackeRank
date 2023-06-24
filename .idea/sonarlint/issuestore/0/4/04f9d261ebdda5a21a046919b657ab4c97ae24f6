@@ -1,0 +1,14 @@
+
+dpython:S1192"FDefine a constant instead of duplicating this literal '+DI_5' 3 times.(¢¾½şÿÿÿÿ
+epython:S1192ƒ"GDefine a constant instead of duplicating this literal '+DI_15' 3 times.(„™Ùõùÿÿÿÿ
+Tpython:S5754"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+Vpython:S905*":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Vpython:S905Q":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+npython:S117Y"WRename this local variable "Wilder" to match the regular expression ^[_a-z][a-z0-9_]*$.(³õ‰š
+dpython:S1542W"LRename function "Wilder" to match the regular expression ^[a-z_][a-z0-9_]*$.(³°Î†
+>python:S1110p"!Remove those useless parentheses.(Í–Ï­ıÿÿÿÿ
+9python:S1110v"!Remove those useless parentheses.(åÅê¢
+Wpython:S905":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Wpython:S905 ":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Wpython:S905»":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
+Wpython:S905Ò":Remove or refactor this statement; it has no side effects.(¤•½Ìùÿÿÿÿ
