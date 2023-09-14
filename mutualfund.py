@@ -7,9 +7,9 @@ pp = pprint.PrettyPrinter(indent=4)
 mf = Mftool()
 scheme_codes = mf.get_scheme_codes()
 
-print(scheme_codes)
-nav_data = mf.get_scheme_historical_nav_for_dates('120828', '01-01-2021', '30-08-2023')
-pp.pprint(nav_data['data'])
+print((scheme_codes))
+nav_data = mf.get_scheme_historical_nav_for_dates('120823', '01-01-2023', '30-08-2023')
+# pp.pprint(nav_data['data'])
 #
 def get_best_return(nava_data):
     average_returns = {}
@@ -31,7 +31,8 @@ def get_best_return(nava_data):
 
     # Find the day with the highest average returns
     best_day = min(average_returns, key=average_returns.get)
-    pp.pprint(average_returns)
+    pp.pprint(sorted(average_returns.items(),key=lambda x:x[1]))
+    pp.pprint(sorted(average_returns.items()))
     return best_day
 
 print(get_best_return(nava_data=nav_data['data']))
