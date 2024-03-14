@@ -20,8 +20,8 @@ data_dictionary ={'folio':[],
 
 }
 df = pd.DataFrame(data_dictionary)
-data = casparser.read_cas_pdf("/Users/aishwaryashukla/devdoc/finance/stmt4.pdf", "Fastrack@12")
-print(type(data))
+data = casparser.read_cas_pdf("/Users/aishwaryashukla/Downloads/8291588090320240820318201335355925.pdf", "Fastrack@12")
+print((data))
 for i in data.folios:
     for sc in i.schemes:
         for x in sc.transactions:
@@ -46,4 +46,3 @@ for i in data.folios:
 
 df.fillna(0)
 df.to_csv("mf.csv")
-df
